@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: petstore.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.501 s <<< FAILURE! - in petstore.TestRunner
+testParallel  Time elapsed: 0.494 s  <<< ERROR!
+java.lang.RuntimeException: mismatched input 'i' expecting <EOF>
+	at petstore.TestRunner.testParallel(TestRunner.java:21)
+
