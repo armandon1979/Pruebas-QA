@@ -1,0 +1,9 @@
+com\example\opencart\pages\CheckoutPage.class
+com\example\opencart\utils\WaitUtils.class
+com\example\opencart\pages\CartPage.class
+com\example\opencart\pages\HomePage.class
+com\example\opencart\steps\ProductPageSteps.class
+com\example\opencart\steps\CheckoutPageSteps.class
+com\example\opencart\steps\CartPageSteps.class
+com\example\opencart\steps\HomePageSteps.class
+com\example\opencart\pages\ProductPage.class

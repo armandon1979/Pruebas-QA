@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="com.example.opencart.tests.CompraTest" skipped="0" tests="1" time="100.23" timestamp="2025-02-25 05:30:35"><testcase classname="com.example.opencart.tests.CompraTest" name="Realizar una compra exitosa como invitado"><error message="Expected condition failed: waiting for By.cssSelector: .alert-success to be displayed (tried for 100 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.10.0', revision: 'c14d967899'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Expected condition failed: waiting for By.cssSelector: .alert-success to be displayed (tried for 100 second(s) with 100 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.cssSelector: .alert-success to be displayed (tried for 100 second(s) with 100 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown&#13;
+com.example.opencart.utils.WaitUtils.waitUntilElementVisible(WaitUtils.java:21)&#13;
+com.example.opencart.pages.ProductPage.agregarAlCarrito(ProductPage.java:17)&#13;
+com.example.opencart.steps.ProductPageSteps.agregarAlCarrito(ProductPageSteps.java:12)&#13;
+com.example.opencart.tests.CompraTest.realizarCompraExitosaComoInvitado(CompraTest.java:39)&#13;
+</system-err></testcase></testsuite>
